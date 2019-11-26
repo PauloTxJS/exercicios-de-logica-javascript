@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Formulário de Cadastro</title>
+    </head>
+    <body>
+        <h1>Conecte-se</h1>
+        <hr>
+        <!--formulário de entrada-->
+            Seu email
+            <input type="text" id="email"/>
+            <br>
+            <br>
+            Sua senha
+            <input type="password" id="password"/>
+            <br>
+            <br>
+            <!--ao apertar o botão a função será executada-->
+            <button onclick="valida()">Enviar</button>
+
+            <div id="resultado">
+
+            </div>
+        
+
+        <script>
+            //email: gen@generation.org
+            //senha: generation
+            //função para validação de email e senha
+            //getElementById voce usa para produrar as coisas pelos seus respectivos IDs
+               function valida(){
+                var email = document.getElementById("email").value;
+                var senha = document.getElementById("password").value;
+                if(email ==="gen@generation.org" && senha==="generation")
+                {
+                    document.getElementById("resultado").innerHTML="Conectado"
+                }
+                else
+                {
+                    document.getElementById("resultado").innerHTML="Usuário/Senha inválidos"
+                }
+
+                console.log("Email digitado = "+email);
+                console.log("Senha digitada = "+senha)
+               }
+              
+           </script>
+    </body>
+</html>
