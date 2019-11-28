@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+
+#topo
+{
+    background-color: #FFE4D9;
+    border: 2px solid #FFE4D9;
+    justify-content: center;
+    display: flex;
+    font-family: 'Arvo', serif;
+}
+
+#corpodojogo
+{
+    justify-content: center;
+    display: table;
+   
+}
