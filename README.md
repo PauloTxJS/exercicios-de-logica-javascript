@@ -1,2 +1,2 @@
 # JavaScript
-Repositório criado para documentar projetos criados com JS.
+Repositório criado para documentar meus primeiros projetos utilizando javascript.
